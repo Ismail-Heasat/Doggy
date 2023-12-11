@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    --mustard-yellow: #E5AF42;
+    --cornflower-blue: #4278e5;
+  }
+
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+header,
+footer {
+  background-color: var(--mustard-yellow);
+}
+
+header {
+  height: 150px;
+  position: relative;
+  margin-top: 15px;
+
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  position: absolute;
+ 
+  
+
+}
+
+
+header h1 {
+    position: absolute;
+    left: 50%; /* Set left to 50% */
+    transform: translateX(-50%); /* Center the text using transform */
+    text-align: center;
+    line-height: 100px;
+    color: #000;
+  }
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+  .content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.contact {
+    height: 420px;
+}
+
+.contact-form {
+    display: flex;
+    gap: 24px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+label {
+    margin-bottom: 6px;
+}
+
+input,
+textarea,
+button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid #000;
+    margin-bottom: 12px;
+}
+
+button {
+    cursor: pointer;
+    width: 300px;
+    height: 35px;
+    background-color: #E5AF42;
+}
+
+button:hover {
+    cursor: pointer;
+    width: 300px;
+    height: 35px;
+    background-color: #4278e5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  footer {
+    height: 120px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 60px;
+    background-color: var(--mustard-yellow); /* Add background color if needed */
+    margin-bottom: 12px;
+    
+}
+
+/* Style the anchor links inside the footer */
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+:root {
+    --mustard-yellow: #E5AF42;
+    --cornflower-blue: #4278e5;
+  }
+
+
+/************* site defaults *************/
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+
+
+header,
+footer {
+  background-color: var(--mustard-yellow);
+}
+
+header {
+  height: 150px;
+  position: relative;
+  margin-top: 15px;
+
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  margin: 25px;
+  position: absolute;
+ 
+  
+
+}
+
+
+header h1 {
+    position: absolute;
+    left: 50%; /* Set left to 50% */
+    transform: translateX(-50%); /* Center the text using transform */
+    text-align: center;
+    line-height: 100px;
+    color: #000;
+  }
+
+
+
+
+
+
+#contents {
+    width: 100%; /* Change to 100% to use the full width of the page */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    margin-top: 50px;
+}
+
+#days {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+.day {
+    width: 60px;
+    border: 1px solid #000;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+}
+
+button.small-button {
+    width: 60px;
+    border: 1px solid #000;
+    margin: 0 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.top-margin {
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+#calculated-cost {
+    width: 100%; /* Use the full width of the parent container */
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.clear-button {
+    width: 200px;
+    height: 35px;
+    background-color: #E5AF42;
+}
+.clear-button:hover {
+    width: 200px;
+    background-color:#4278e5;
+}
+
+/* Apply mustard yellow background for elements with the .clicked class */
+.clicked {
+    background-color: #E5AF42;
+}
+
+
+
+#main {
+    margin-top: 25px;
+    margin-bottom: 50px;
+  }
+
+
+
+
+footer {
+    height: 120px;
+    font-weight: 200;
+    text-align: center;
+    line-height: 60px;
+    background-color: var(--mustard-yellow); /* Add background color if needed */
+    margin-bottom: 12px;
+}
+
+/* Style the anchor links inside the footer */
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
